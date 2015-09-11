@@ -1,0 +1,22 @@
+{
+  "name": "Socha Dev Slack audio",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "web_accessible_resources": [
+    "observer.js"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://sochadev.slack.com/*"
+      ],
+      "run_at": "document_end",
+      "js": [
+        "player.js"
+      ],
+      "css": [
+        "player.css"
+      ]
+    }
+  ]
+}

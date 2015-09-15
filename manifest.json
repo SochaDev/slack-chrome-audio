@@ -8,7 +8,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://sochadev.slack.com/*"
+        "https://example.slack.com/*"
       ],
       "run_at": "document_end",
       "js": [

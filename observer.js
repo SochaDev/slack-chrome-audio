@@ -3,7 +3,7 @@
   'use strict';
 
   // Config audio source.
-    var url_audio = 'https://slack.sochadev.com/plugin_assets/audio';
+    var url_audio = 'https://example.sochadev.com/plugin_assets/audio';
 
   // Global vars.
     var container = document.getElementById('msgs_div');
